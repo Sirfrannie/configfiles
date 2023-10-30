@@ -14,6 +14,11 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
 fi
 
 alias xc='tmux show-buffer | xclip -selection clipboard'
+alias firefox='flatpak run org.mozilla.firefox &'
+alias ghidra='flatpak run org.ghidra_sre.Ghidra &'
+alias burp='~/BurpSuiteCommunity/BurpSuiteCommunity &'
+alias discord='flatpak run com.discordapp.Discord &'
+
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
