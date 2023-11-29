@@ -1,8 +1,3 @@
-case $- in
-    *i*) ;;
-      *) return;;
-esac
-
 HISTCONTROL=ignoreboth
 HISTSIZE=1000
 HISTFILESIZE=2000
@@ -26,13 +21,8 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
-PS1='${debian_chroot:+($debian_chroot)}\u@\h:\[\e[01;32m\]\w\[\e[0m\]\$ '
+#PS1='${debian_chroot:+($debian_chroot)}\u@\h:\[\e[01;32m\]\w\[\e[0m\]\$ '
+#PS1='┌──[\[\e[01;32m\]\w\[\e[0m\]]\[\e[06;34m\] ⛾\[\e[0m\]\n└─(\[\e[01;36m\]\u\[\e[0m\])\[\e[01;34m\]»\[\e[0m\] '
+PS1='┌──[\[\e[01;32m\]\w\[\e[0m\]] ${debian_chroot:+($debian_chroot)}\n└─(\[\e[01;36m\]\u\[\e[0m\])\[\e[01;34m\]»\[\e[0m\] '
 export EDITOR='vim'
 export BASH_SILENCE_DEPRECATION_WARNING=1
