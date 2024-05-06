@@ -23,6 +23,8 @@ set number
 set timeoutlen=1000
 set ttimeoutlen=0
 
+map <leader>n :tabn<CR>
+
 " gvim required
 noremap <C-c> "+yyy
 noremap <C-v> "+p 
