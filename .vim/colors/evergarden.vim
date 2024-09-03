@@ -4,6 +4,8 @@ syntax reset
 
 let g:colors_name="evergarden"
 
+hi Normal           ctermbg=234         ctermfg=195
+
 hi Boolean          ctermbg=NONE        ctermfg=1
 hi Character        ctermbg=NONE        ctermfg=10
 hi String           ctermbg=NONE        ctermfg=10
@@ -40,5 +42,11 @@ hi Todo             ctermbg=153         ctermfg=16     cterm=bold
 hi Comment          ctermbg=NONE        ctermfg=38     cterm=italic
 
 hi TabLineFill      ctermbg=242         ctermfg=242
-hi TabLine          ctermbg=89          ctermfg=79     cterm=bold
-hi TabLineSel       ctermbg=96          ctermfg=80     cterm=bold
+hi TabLineSel       ctermbg=89          ctermfg=255     cterm=bold
+hi TabLine          ctermbg=244         ctermfg=80     cterm=bold
+hi VertSplit        ctermbg=237         ctermfg=237
+
+hi Defualt          ctermfg=252         ctermbg=237
+hi SNormal          ctermfg=255         ctermbg=128     cterm=bold
+hi SInsert          ctermfg=0           ctermbg=190     cterm=bold
+hi SElse            ctermfg=0           ctermbg=139     cterm=bold

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/kj/class/os/week7'
+let g:netrw_dirhist_7='/home/kj/class/la/hw2'
+let g:netrw_dirhist_6='/home/kj/class/os/week6'
+let g:netrw_dirhist_5='/home/kj/class/dsa/week1/solutions/pack7_Recursion'
+let g:netrw_dirhist_4='/home/kj/class/dsa/week1/solutions'
+let g:netrw_dirhist_3='/home/kj/class/dsa/week1'
+let g:netrw_dirhist_2='/home/kj/class/dsa/week1/solutions/pack7_Recursion'
+let g:netrw_dirhist_1='/home/kj/class/dsa/week1/solutions'
+let g:netrw_dirhist_0='/home/kj/class/dsa/week1'
+let g:netrw_dirhist_9='/home/kj/class/dsa/week1/solutions/pack7_Recursion'
