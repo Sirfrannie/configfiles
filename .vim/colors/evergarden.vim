@@ -4,7 +4,10 @@ syntax reset
 
 let g:colors_name="evergarden"
 
-hi Normal           ctermbg=234         ctermfg=195
+hi Normal           ctermbg=234         ctermfg=87
+hi LineNr           ctermfg=249
+hi CursorLine       ctermbg=235         cterm=NONE
+hi CursorLineNr     ctermbg=233         ctermfg=250     cterm=bold
 
 hi Boolean          ctermbg=NONE        ctermfg=1
 hi Character        ctermbg=NONE        ctermfg=10
@@ -17,7 +20,7 @@ hi Identifier       ctermbg=NONE        ctermfg=11
 hi Function         ctermbg=NONE        ctermfg=13      
 
 hi Statement        ctermbg=NONE        ctermfg=83      
-hi Conditional      ctermbg=NONE        ctermfg=51      
+hi Conditional      ctermbg=NONE        ctermfg=147
 hi Repeat           ctermbg=NONE        ctermfg=46      
 hi Label            ctermbg=NONE        ctermfg=48      
 hi Operator         ctermbg=NONE        ctermfg=48      

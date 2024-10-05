@@ -53,6 +53,7 @@ set timeoutlen=1000
 set ttimeoutlen=0
 set showmode
 set scrolloff=3
+set cursorline
 
 map <leader>n :tabn<CR>
 
