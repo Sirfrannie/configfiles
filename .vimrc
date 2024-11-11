@@ -39,6 +39,12 @@ let  &t_SI = "\e[6 q"
 let  &t_EI = "\e[2 q"
 let  &t_SR = "\e[4 q"
 
+let g:netrw_banner=0
+let g:netrw_liststyle=3
+let g:netrw_altv=1
+let g:netrw_winsize=75
+
+
 set mouse=a
 set expandtab
 set wrap

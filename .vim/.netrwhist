@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/kj/.vim/colors'
+let g:netrw_dirhist_2='/home/kj/.vim'
+let g:netrw_dirhist_1='/home/kj/.vim/colors'
+let g:netrw_dirhist_0='/home/kj/learning'
+let g:netrw_dirhist_9='/home/kj/.vim/colors'
+let g:netrw_dirhist_8='/home/kj/.vim'
+let g:netrw_dirhist_7='/home/kj'
+let g:netrw_dirhist_6='/home/kj/learning'
+let g:netrw_dirhist_5='/home/kj'
+let g:netrw_dirhist_4='/home/kj/.vim'

@@ -44,9 +44,9 @@ hi Underlined       ctermbg=NONE        ctermfg=10
 hi Todo             ctermbg=153         ctermfg=16     cterm=bold       
 hi Comment          ctermbg=NONE        ctermfg=38     cterm=italic
 
-hi TabLineFill      ctermbg=242         ctermfg=242
-hi TabLineSel       ctermbg=89          ctermfg=255     cterm=bold
-hi TabLine          ctermbg=244         ctermfg=80     cterm=bold
+hi TabLineFill      ctermbg=233         ctermfg=233
+hi TabLineSel       ctermbg=234         ctermfg=255     cterm=bold
+hi TabLine          ctermbg=237         ctermfg=80      cterm=bold
 hi VertSplit        ctermbg=237         ctermfg=237
 
 hi Defualt          ctermfg=252         ctermbg=237
